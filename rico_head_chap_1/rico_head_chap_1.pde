@@ -7,7 +7,7 @@ void setup() {
 }
 
 void draw() {
-  // Redraw background and robot eye every frame to prevent trails
+
   background(173, 216, 230);  
   drawRobotEye();
   
