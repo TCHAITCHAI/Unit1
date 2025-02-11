@@ -37,7 +37,7 @@ void draw(){
  // Main body (front face)
  stroke(0); // Gray stroke for tears
  strokeWeight(2);
- fill(#c4c4c4); // White body
+ fill(#c4c4c4);  //Grey
  quad(700, 100,  // Top-left
       900, 100,  // Top-right
       900, 300,  // Bottom-right
@@ -60,6 +60,62 @@ void draw(){
       700,300,
       650,250);
  
+ //first leg left
+ quad(650,250,
+      650,350,
+      665,365,
+      665,265);
+      
+//first leg front
+ fill(#c4c4c4); //Grey
+ quad(665,365,
+      685,365,
+      685,285,
+      665,265);
+      
+//second leg left 
+ fill(255, 230, 230);
+ quad(730,300,
+      730,400,
+      750,420,
+      750,300);
+      
+//second leg front
+ fill(#c4c4c4);
+ quad(750,420,
+      780,420,
+      780,300,
+      750,300);
+      
+//third leg front
+ quad(780,375,
+      800,375,
+      800,300,
+      780,300);
+      
+//fourth leg left
+ quad(825,300,
+      825,400,
+      845,400,
+      845,300);
+      
+//fourth leg front
+ fill(255);
+ quad(825,400,
+      815,385,
+      815,300,
+      825,300);
+   
+//fifth leg left
+ quad(870,300,
+      870,380,
+      900,
+      
+      
+     
+      
+      
+
  // ====== COORDINATE DISPLAY ======
  noStroke();
  fill(255, 200); // Semi-transparent white
