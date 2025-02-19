@@ -2,7 +2,6 @@
 
 void setup() {
   size(1000,1000);
-  textSize(16); // Added for coordinates
   noLoop();
 }
 
